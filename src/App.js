@@ -1,13 +1,22 @@
 import React from 'react';
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar/Navbar'
+
+
+
+
+
 
 class App extends React.Component {
+
+
+
+
   state = {  } 
   render() { 
     return (
-      <div>
+      <main className="main">
       <Navbar />
-      </div>
+      </main>
     );
   }
 }

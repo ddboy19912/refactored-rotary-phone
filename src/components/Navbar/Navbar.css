@@ -1,0 +1,32 @@
+.navbar{
+    display: flex;
+background-color: rgba(229, 231, 235);
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.left{
+    display: flex;
+    gap: 1rem;
+    font-size: 16px;
+}
+
+.left-items{
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.middle{
+    display: flex;
+    cursor: pointer;
+}
+
+.right{
+    display: flex;
+    gap: 1rem;
+}
+.caret{
+    width: 15px;
+}
